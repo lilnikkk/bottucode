@@ -1,0 +1,14 @@
+services:
+  music-disc:
+    image: hmes98318/music-disc:latest
+    container_name: music-disc
+    restart: always
+    environment:
+      TZ: "Asia/Taipei"
+      BOT_TOKEN: "your_token"
+    volumes:
+      - ./config.js:/bot/config.js              # Bot config
+      - ./logs:/bot/logs                        # Bot logs
+      - ./server:/bot/server                    # localnode configuration file
+    ports:
+      - 33333:33333
