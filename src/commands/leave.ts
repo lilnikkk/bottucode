@@ -8,7 +8,7 @@ import type { Bot } from '../@types/index.js';
 
 
 export const name = 'leave';
-export const aliases = [];
+export const aliases = ['lv'];
 export const description = i18next.t('commands:CONFIG_LEAVE_DESCRIPTION');
 export const usage = i18next.t('commands:CONFIG_LEAVE_USAGE');
 export const category = CommandCategory.MUSIC;
