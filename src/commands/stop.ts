@@ -9,7 +9,7 @@ import type { Bot } from '../@types/index.js';
 
 
 export const name = 'stop';
-export const aliases = [];
+export const aliases = ['st'];
 export const description = i18next.t('commands:CONFIG_STOP_DESCRIPTION');
 export const usage = i18next.t('commands:CONFIG_STOP_USAGE');
 export const category = CommandCategory.MUSIC;
