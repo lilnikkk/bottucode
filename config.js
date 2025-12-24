@@ -36,7 +36,7 @@ const config = {
         clientSecret            : '',
 
         name                    : 'Music Disc',
-        prefix                  : '5',                  // Text command prefix
+        prefix                  : '4',                  // Text command prefix
         status                  : 'online',             // 'online' | 'idle' | 'dnd'
         activity: {
             type                : 0,                    // https://discord.com/developers/docs/topics/gateway-events#activity-object-activity-types
