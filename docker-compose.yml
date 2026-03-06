@@ -11,4 +11,4 @@ services:
       - ./logs:/bot/logs                        # Bot logs
       - ./server:/bot/server                    # localnode configuration file
     ports:
-      - 33333:33333
+      - 8080:8080
