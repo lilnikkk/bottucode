@@ -6,9 +6,9 @@ const config = {
     nodeList: [
         {
             id: 'Node 1',
-            hostname: 'sg1-nodelink.nyxbot.app',
-            port: 3000,
-            password: 'nyxbot.app/support'
+            hostname: 'lavalink.serenetia.com',
+            port: 80,
+            password: 'https://dsc.gg/ajidevserver'
         }
     ],
 
